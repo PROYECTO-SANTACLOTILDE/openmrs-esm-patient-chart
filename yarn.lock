@@ -4509,31 +4509,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@openmrs/esm-patient-chart-app@workspace:packages/esm-patient-chart-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-patient-chart-app@workspace:packages/esm-patient-chart-app"
-  dependencies:
-    "@openmrs/esm-patient-common-lib": "workspace:*"
-    "@types/uuid": "npm:^9.0.4"
-    lodash-es: "npm:^4.17.21"
-    uuid: "npm:^8.3.2"
-    webpack: "npm:^5.94.0"
-  peerDependencies:
-    "@carbon/react": 1.x
-    "@openmrs/esm-framework": 6.x
-    "@openmrs/esm-patient-common-lib": "*"
-    dayjs: 1.x
-    lodash-es: 4.x
-    react: 18.x
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    rxjs: 6.x
-    single-spa: 6.x
-    single-spa-react: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
-
 "@openmrs/esm-patient-chart@workspace:.":
   version: 0.0.0-use.local
   resolution: "@openmrs/esm-patient-chart@workspace:."
@@ -5072,6 +5047,31 @@ __metadata:
   checksum: 10/c7654046d38984257dd639eab3dc770d1b0340916097b2fac03ce5d23506ada684e05574a69b255c32ea6a144a957c8cd84264159b545fca031c772289d88788
   languageName: node
   linkType: hard
+
+"@pucp-gidis-hiisc/esm-patient-chart-app@workspace:packages/esm-patient-chart-app":
+  version: 0.0.0-use.local
+  resolution: "@pucp-gidis-hiisc/esm-patient-chart-app@workspace:packages/esm-patient-chart-app"
+  dependencies:
+    "@types/uuid": "npm:^9.0.4"
+    cross-env: "npm:^7.0.3"
+    lodash-es: "npm:^4.17.21"
+    uuid: "npm:^8.3.2"
+    webpack: "npm:^5.94.0"
+  peerDependencies:
+    "@carbon/react": 1.x
+    "@openmrs/esm-framework": 6.x
+    "@openmrs/esm-patient-common-lib": "*"
+    dayjs: 1.x
+    lodash-es: 4.x
+    react: 18.x
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    rxjs: 6.x
+    single-spa: 6.x
+    single-spa-react: 6.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
 
 "@react-aria/autocomplete@npm:3.0.0-beta.1":
   version: 3.0.0-beta.1
