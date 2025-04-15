@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@carbon/react": "^1.76.0",
+    "cross-env": "^7.0.3",
     "lodash-es": "^4.17.21",
     "uuid": "^8.3.2"
   },
@@ -37,5 +38,8 @@
     "@openmrs/esm-framework": "6.x",
     "react": "18.x",
     "single-spa": "6.x"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
   }
 }
